@@ -1,0 +1,193 @@
+body {
+  background-color: rgb(246, 244, 167);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-transform: uppercase;
+  display: grid;
+  grid-template-columns: repeat(10, 10%);
+  margin: 8%;
+}
+.header {
+  grid-column: 1/7;
+  font-size: 2.72em;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.header-line {
+  width: 70%;
+}
+
+.header-title1 {
+  transform: scale(1.2, 1.5);
+  margin-bottom: 2%;
+  margin-top: 0;
+  margin-left: 0%;
+  margin-right: 0%;
+  padding: 0;
+  display: inline-block;
+}
+
+.header-title2 {
+  transform: scale(1, 1.5);
+  margin-top: 2%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-bottom: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.dailyBreakfast {
+  grid-column: 7/11;
+  background-color: rgb(204, 225, 169);
+  border: 0.2em solid rgb(246, 244, 167);
+  outline: 0.4em solid rgb(204, 225, 169);
+  padding: 8%;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.dailyBreakfast-title {
+  color: white;
+  writing-mode: tb-rl;
+  transform: rotate(180deg);
+  display: inline-block;
+  text-align: center;
+  font-size: 2em;
+  transform: scale(-1.5, -1);
+  width: 15%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.dailyBreakfast-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 85%;
+  display: inline-block;
+  align-self: center;
+}
+
+.dailyBreakfast-list-item-day {
+  background-color: rgb(175, 215, 207);
+  color: white;
+  width: 91%;
+  display: inline-block;
+  margin: 0%;
+  transform: scale(1, 1.1);
+}
+
+.dailyBreakfast-list-item-dish {
+  width: 80%;
+  display: inline-block;
+  margin: 0%;
+  font-weight: 700;
+  font-size: 1.2em;
+  transform: scale(1, 1.1);
+}
+
+.dailyBreakfast-list-item-price {
+  width: 10%;
+  display: inline-block;
+  margin: 0%;
+  font-size: 1.2em;
+  font-weight: 400;
+  transform: scale(1, 1.1);
+}
+
+main {
+  grid-column: 1/11;
+  border: 0.5em dotted white;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.mainMenu-mainPic {
+  margin: 2%;
+}
+
+.mainMenu-mainPic-image {
+  width: 100%;
+}
+.mainMenu-list {
+  display: flex;
+  flex-flow: row wrap;
+  list-style-type: none;
+  margin: 2%;
+  padding: 0;
+}
+
+.mainMenu-list-part1 {
+  width: 47%;
+  padding-right: 2%;
+  display: inline-block;
+  border-right: 0.5em dotted white;
+}
+.mainMenu-list-part2 {
+  width: 48%;
+  margin-left: 2%;
+  display: inline-block;
+}
+
+.mainMenu-list-item-dish {
+  display: inline-block;
+  width: 80%;
+  margin-bottom: 0%;
+  margin-top: 1em;
+}
+
+.mainMenu-list-item-weight {
+  display: inline-block;
+  width: 9%;
+  margin: 0%;
+  font-size: 0.8em;
+}
+.mainMenu-list-item-description {
+  display: inline-block;
+  width: 70%;
+  margin-right: 30%;
+  margin-bottom: 0%;
+  margin-left: 0%;
+  margin-top: 0%;
+  font-size: 0.7em;
+}
+.mainMenu-list-item-price {
+  display: inline;
+  font-weight: 600;
+  margin: 0%;
+}
+
+footer {
+  grid-column: 3/9;
+  background-color: rgb(203, 224, 171);
+  border-radius: 2%/45%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacts {
+  display: inline-block;
+  transform: scale(1, 1.4);
+  margin: 1.5%;
+  align-self: center;
+}
+
+.contacts > a {
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+  text-transform: none;
+  color: black;
+}
+
+.contacts-img {
+  width: 1.2em;
+  height: 1em;
+}

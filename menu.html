@@ -20,10 +20,13 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="CSS/general.css">
 </head>
 <body>
     <header class="header">
-        <h1 class="header-title">Сніданки цілий день </h1>
+        <h1 class="header-title1">Сніданки</h1>
+        <img class="header-line" src="1111.jpg">
+        <h1 class="header-title2">цілий день</h1>
     </header>
     <aside class="dailyBreakfast"> 
         <h2 class="dailyBreakfast-title"> сніданок дня</h2>
@@ -61,87 +64,93 @@
                 <img class="mainMenu-mainPic-image" src="photo.jpg" alt="Дуже смачний англійский сніданок">
             </section>
             <ul class="mainMenu-list">
-                <li class="mainMenu-list-item">
-                    <p class="mainMenu-list-item-dish">Англійскій сніданок</p>
-                    <p class="mainMenu-list-item-weight">350</p>
-                    <p class="mainMenu-list-item-price">79</p>
-                    <p class="mainMenu-list-item-description">яєчня із двох яєць, з дюсельдорфською ковбаскою і беконом, помідором, грибами, сочевицею і хлібом</p>
-                </li>
-                <li class="mainMenu-list-item">
-                    <p class="mainMenu-list-item-dish">великий домашній сніданок</p>
-                    <p class="mainMenu-list-item-weight">350</p>
-                    <p class="mainMenu-list-item-price">77</p>
-                    <p class="mainMenu-list-item-description">яйце пашот, деруни, бекон, помідор, кукурудза, хліб</p>
-                </li>
-                <li class="mainMenu-list-item">
-                    <p class="mainMenu-list-item-dish">Соковитий омлет з індичкою та голандським соусом</p>
-                    <p class="mainMenu-list-item-weight">250</p>
-                    <p class="mainMenu-list-item-price">70</p>
-                </li>
-                <li class="mainMenu-list-item">
-                    <p class="mainMenu-list-item-dish">норвезький сніданок</p>
-                    <p class="mainMenu-list-item-weight">250</p>
-                    <p class="mainMenu-list-item-price">85</p>
-                    <p class="mainMenu-list-item-description">ніжний скрембл із слабосоленою сьомгою та голандським соусом</p>
-                </li>
-                <li class="mainMenu-list-item">
-                    <p class="mainMenu-list-item-dish">яйця бенедикт</p>
-                    <p class="mainMenu-list-item-weight">180</p>
-                    <p class="mainMenu-list-item-price">65</p>
-                </li>
-                <li class="mainMenu-list-item">
-                    <p class="mainMenu-list-item-dish">Яйця пашот із сьомгою</p>
-                    <p class="mainMenu-list-item-weight">200</p>
-                    <p class="mainMenu-list-item-price">85</p>
-                </li>
-                <li class="mainMenu-list-item">
-                    <p class="mainMenu-list-item-dish">мелт з індичкою, яєчнею, шпинатом, огірком та сирним соусом, подається з томатним соком</p>
-                    <p class="mainMenu-list-item-weight">370</p>
-                    <p class="mainMenu-list-item-price">73</p>
-                </li>
-                <li class="mainMenu-list-item">
-                    <p class="mainMenu-list-item-dish">круасан з хумусом, яєчнею та помідором</p>
-                    <p class="mainMenu-list-item-weight">210</p>
-                    <p class="mainMenu-list-item-price">57</p>
-                </li>
-                <li class="mainMenu-list-item">
-                    <p class="mainMenu-list-item-dish">круасан з сьомгою та ніжним крем-сиром з овочевою нарізкою</p>
-                    <p class="mainMenu-list-item-weight">215</p>
-                    <p class="mainMenu-list-item-price">75</p>
-                </li>
-                <li class="mainMenu-list-item">
-                    <p class="mainMenu-list-item-dish">вівсянка з яйцем пашот та сиром пармезан</p>
-                    <p class="mainMenu-list-item-weight">330</p>
-                    <p class="mainMenu-list-item-price">55</p>
-                </li>
-                <li class="mainMenu-list-item">
-                    <p class="mainMenu-list-item-dish">вівсяна каша на воді чи молоці з карамелізованими яблуками та посипана подрібненим грецьким горіхом</p>
-                    <p class="mainMenu-list-item-weight">350</p>
-                    <p class="mainMenu-list-item-price">45</p>
-                </li>
-                <li class="mainMenu-list-item">
-                    <p class="mainMenu-list-item-dish">ліниві вареники з домашнім творогом подаються зі сметаною або полуничним соусом</p>
-                    <p class="mainMenu-list-item-weight">250</p>
-                    <p class="mainMenu-list-item-price">55</p>
-                </li>
-                <li class="mainMenu-list-item">
-                    <p class="mainMenu-list-item-dish">домашні сирники зі сметаною та медом</p>
-                    <p class="mainMenu-list-item-weight">290</p>
-                    <p class="mainMenu-list-item-price">65</p>
-                </li>
-                <li class="mainMenu-list-item">
-                    <p class="mainMenu-list-item-dish">домашні оладки з малиново-заварним кремом або чорнично-сметанним соусом</p>
-                    <p class="mainMenu-list-item-weight">220</p>
-                    <p class="mainMenu-list-item-price">55</p>
-                </li>
+                <div class="mainMenu-list-part1">
+                    <li class="mainMenu-list-item">
+                        <p class="mainMenu-list-item-dish">Англійскій сніданок</p>
+                        <p class="mainMenu-list-item-weight">350</p>
+                        <p class="mainMenu-list-item-price">79</p>
+                        <p class="mainMenu-list-item-description">яєчня із двох яєць, з дюсельдорфською ковбаскою і беконом, помідором,
+                            грибами, сочевицею і хлібом</p>
+                    </li>
+                    <li class="mainMenu-list-item">
+                        <p class="mainMenu-list-item-dish">великий домашній сніданок</p>
+                        <p class="mainMenu-list-item-weight">350</p>
+                        <p class="mainMenu-list-item-price">77</p>
+                        <p class="mainMenu-list-item-description">яйце пашот, деруни, бекон, помідор, кукурудза, хліб</p>
+                    </li>
+                    <li class="mainMenu-list-item">
+                        <p class="mainMenu-list-item-dish">Соковитий омлет з індичкою та голандським соусом</p>
+                        <p class="mainMenu-list-item-weight">250</p>
+                        <p class="mainMenu-list-item-price">70</p>
+                    </li>
+                    <li class="mainMenu-list-item">
+                        <p class="mainMenu-list-item-dish">норвезький сніданок</p>
+                        <p class="mainMenu-list-item-weight">250</p>
+                        <p class="mainMenu-list-item-price">85</p>
+                        <p class="mainMenu-list-item-description">ніжний скрембл із слабосоленою сьомгою та голандським соусом</p>
+                    </li>
+                    <li class="mainMenu-list-item">
+                        <p class="mainMenu-list-item-dish">яйця бенедикт</p>
+                        <p class="mainMenu-list-item-weight">180</p>
+                        <p class="mainMenu-list-item-price">65</p>
+                    </li>
+                    <li class="mainMenu-list-item">
+                        <p class="mainMenu-list-item-dish">Яйця пашот із сьомгою</p>
+                        <p class="mainMenu-list-item-weight">200</p>
+                        <p class="mainMenu-list-item-price">85</p>
+                    </li>
+                    <li class="mainMenu-list-item">
+                        <p class="mainMenu-list-item-dish">мелт з індичкою, яєчнею, шпинатом, огірком та сирним соусом, подається з томатним
+                            соком</p>
+                        <p class="mainMenu-list-item-weight">370</p>
+                        <p class="mainMenu-list-item-price">73</p>
+                    </li>
+                </div>
+                <div class="mainMenu-list-part2">
+                    <li class="mainMenu-list-item">
+                        <p class="mainMenu-list-item-dish">круасан з хумусом, яєчнею та помідором</p>
+                        <p class="mainMenu-list-item-weight">210</p>
+                        <p class="mainMenu-list-item-price">57</p>
+                    </li>
+                    <li class="mainMenu-list-item">
+                        <p class="mainMenu-list-item-dish">круасан з сьомгою та ніжним крем-сиром з овочевою нарізкою</p>
+                        <p class="mainMenu-list-item-weight">215</p>
+                        <p class="mainMenu-list-item-price">75</p>
+                    </li>
+                    <li class="mainMenu-list-item">
+                        <p class="mainMenu-list-item-dish">вівсянка з яйцем пашот та сиром пармезан</p>
+                        <p class="mainMenu-list-item-weight">330</p>
+                        <p class="mainMenu-list-item-price">55</p>
+                    </li>
+                    <li class="mainMenu-list-item">
+                        <p class="mainMenu-list-item-dish">вівсяна каша на воді чи молоці з карамелізованими яблуками та посипана
+                            подрібненим грецьким горіхом</p>
+                        <p class="mainMenu-list-item-weight">350</p>
+                        <p class="mainMenu-list-item-price">45</p>
+                    </li>
+                    <li class="mainMenu-list-item">
+                        <p class="mainMenu-list-item-dish">ліниві вареники з домашнім творогом подаються зі сметаною або полуничним соусом
+                        </p>
+                        <p class="mainMenu-list-item-weight">250</p>
+                        <p class="mainMenu-list-item-price">55</p>
+                    </li>
+                    <li class="mainMenu-list-item">
+                        <p class="mainMenu-list-item-dish">домашні сирники зі сметаною та медом</p>
+                        <p class="mainMenu-list-item-weight">290</p>
+                        <p class="mainMenu-list-item-price">65</p>
+                    </li>
+                    <li class="mainMenu-list-item">
+                        <p class="mainMenu-list-item-dish">домашні оладки з малиново-заварним кремом або чорнично-сметанним соусом</p>
+                        <p class="mainMenu-list-item-weight">220</p>
+                        <p class="mainMenu-list-item-price">55</p>
+                    </li>
+                </div>
             </ul>
         </article>
     </main>
     <footer>
-        <div class="contacts">
-            <div class="contacts-phone"><a href="tel:+380631774463">Моб:+38(063)177-44-63</a></div>
-            <div class="contacts-facebook"><a href="facebook.com/soulcafe10">facebook.com/soulcafe10</a></div>
-            <div class="contacts-web"><a href="www.soulcafe.com.ua">www.soulcafe.com.ua</a></div>
-        </div>
+            <div class="contacts contacts-phone"><a href="tel:+380631774463">Моб:+38(063)177-44-63</a></div>
+            <div class="contacts contacts-facebook"> <a href="facebook.com/soulcafe10"><img class="contacts-img" src="fbLogo.png"> facebook.com/soulcafe10</a></div>
+            <div class="contacts contacts-web">  <a href="www.soulcafe.com.ua"><img class="contacts-img" src="webLogo.png"> www.soulcafe.com.ua</a></div>
     </footer>
 </body>
