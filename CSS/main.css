@@ -1,0 +1,194 @@
+main {
+  grid-column: 1/11;
+  border: 0.5em dotted white;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.mainMenu-mainPic {
+  margin: 2%;
+}
+
+.mainMenu-mainPic-image {
+  width: 100%;
+}
+.mainMenu-list {
+  display: flex;
+  flex-flow: row wrap;
+  list-style-type: none;
+  margin: 2%;
+  padding: 0;
+}
+
+.mainMenu-list-part1 {
+  width: 47%;
+  padding-right: auto;
+  display: inline-block;
+  border-right: 0.5em dotted white;
+}
+.mainMenu-list-part2 {
+  width: 47%;
+  margin-left: 4%;
+  display: inline-block;
+}
+
+.mainMenu-list-item-dish {
+  display: inline-block;
+  width: 80%;
+  margin-bottom: 0%;
+  margin-top: 1em;
+  font-size: 100%;
+}
+
+.mainMenu-list-item-weight {
+  display: inline-block;
+  width: 9%;
+  margin: 0%;
+  font-size: 80%;
+}
+.mainMenu-list-item-description {
+  display: inline-block;
+  width: 70%;
+  margin-right: 30%;
+  margin-bottom: 0%;
+  margin-left: 0%;
+  margin-top: 0%;
+  font-size: 70%;
+}
+.mainMenu-list-item-price {
+  display: inline;
+  font-weight: 600;
+  margin: 0%;
+  font-size: 100%;
+}
+
+@media (min-width: 2500px) {
+  .mainMenu-list {
+    font-size: 200%;
+  }
+  main {
+    border: 1em dotted white;
+  }
+}
+
+@media (min-width: 2100px) and (max-width: 2499px) {
+  .mainMenu-list {
+    font-size: 190%;
+  }
+  main {
+    border: 0.95em dotted white;
+  }
+}
+
+@media (min-width: 1900px) and (max-width: 2099px) {
+  .mainMenu-list {
+    font-size: 180%;
+  }
+  main {
+    border: 0.9em dotted white;
+  }
+}
+
+@media (min-width: 1700px) and (max-width: 1899px) {
+  .mainMenu-list {
+    font-size: 160%;
+  }
+  main {
+    border: 0.8em dotted white;
+  }
+}
+
+@media (min-width: 1550px) and (max-width: 1699px) {
+  .mainMenu-list {
+    font-size: 140%;
+  }
+  main {
+    border: 0.7em dotted white;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1549px) {
+  .mainMenu-list {
+    font-size: 130%;
+  }
+  main {
+    border: 0.65em dotted white;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+  .mainMenu-list {
+    font-size: 120%;
+  }
+  main {
+    border: 0.6em dotted white;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1279px) {
+  .mainMenu-list {
+    font-size: 110%;
+  }
+  main {
+    border: 0.55em dotted white;
+  }
+}
+
+@media (max-width: 900px) {
+  .mainMenu-list {
+    font-size: 90%;
+  }
+  main {
+    border: 0.45em dotted white;
+  }
+}
+
+@media (max-width: 750px) {
+  .mainMenu-list {
+    font-size: 80%;
+  }
+  main {
+    border: 0.4em dotted white;
+  }
+}
+
+@media (max-width: 650px) {
+  .mainMenu-list {
+    font-size: 70%;
+  }
+  main {
+    border: 0.35em dotted white;
+  }
+}
+
+@media (max-width: 550px) {
+  .mainMenu-list {
+    font-size: 65%;
+  }
+  main {
+    border: 0.325em dotted white;
+  }
+}
+
+@media (max-width: 425px) {
+  .mainMenu-list {
+    font-size: 80%;
+  }
+  .mainMenu-list-part1 {
+    width: 100%;
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+  .mainMenu-list-part2 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (max-width: 360px) {
+  .mainMenu-list {
+    font-size: 70%;
+  }
+}
