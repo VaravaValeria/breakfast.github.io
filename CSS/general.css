@@ -1,9 +1,11 @@
 body {
-  background-color: rgb(246, 244, 167);
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  text-transform: uppercase;
   display: grid;
   grid-template-columns: repeat(10, 10%);
-  font-size: 16px;
-  margin: 8%;
+  width: 84,12%;
+  margin: 7.65% 9.43% 5.10% 9.43%;
+  background-color: rgb(246, 244, 167);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-transform: lowercase;
+
+
 }

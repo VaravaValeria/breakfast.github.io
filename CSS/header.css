@@ -1,130 +1,24 @@
 .header {
   grid-column: 1/7;
-  font-size: 272%;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  display: inline-block;
-}
-
-@media (min-width: 2500px) {
-  .header {
-    font-size: 450%;
-  }
-}
-
-@media (min-width: 1900px) and (max-width: 2499px) {
-  .header {
-    font-size: 380%;
-  }
-}
-
-@media (min-width: 1440px) and (max-width: 1899px) {
-  .header {
-    font-size: 330%;
-  }
-}
-
-@media (min-width: 1200px) and (max-width: 1439px) {
-  .header {
-    font-size: 300%;
-  }
-}
-
-@media (max-width: 1024px) {
-  .header {
-    font-size: 250%;
-  }
-}
-
-@media (max-width: 900px) {
-  .header {
-    font-size: 220%;
-  }
-}
-
-@media (max-width: 800px) {
-  .header {
-    font-size: 200%;
-  }
-}
-
-@media (max-width: 750px) {
-  .header {
-    font-size: 180%;
-  }
-}
-
-@media (max-width: 650px) {
-  .header {
-    font-size: 150%;
-    margin-top: 7%;
-  }
-}
-
-@media (max-width: 550px) {
-  .header {
-    font-size: 115%;
-  }
-}
-
-@media (max-width: 425px) {
-  .header {
-    grid-column: 1/11;
-    font-size: 150%;
-  }
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  width: 95.56%;
+  font-size: 4vw;
+  transform: scale(1, 1.2);
+  text-transform: uppercase;
 }
 
 .header-line {
-  width: 70%;
-}
-
-@media (min-width: 2200px) {
-  .header-line {
-    width: 55%;
-  }
-}
-
-@media (min-width: 1600px) and (max-width: 2199px) {
-  .header-line {
-    width: 60%;
-  }
-}
-
-@media (min-width: 1350px) and (max-width: 1599px) {
-  .header-line {
-    width: 65%;
-  }
-}
-
-@media (max-width: 1250px) {
-  .header-line {
-    width: 75%;
-  }
-}
-
-@media (max-width: 1150px) {
-  .header-line {
-    width: 80%;
-  }
+  width: 93%;
 }
 
 .header-title1 {
-  transform: scale(1.2, 1.5);
-  margin-bottom: 2%;
-  margin-top: 0;
-  margin-left: 0%;
-  margin-right: 0%;
-  padding: 0;
-  display: inline-block;
+  align-self: center;
+  margin: 0%;
 }
-
 .header-title2 {
-  transform: scale(1, 1.5);
-  margin-top: 2%;
-  margin-left: 0%;
-  margin-right: 0%;
-  margin-bottom: 0;
-  padding: 0;
-  display: inline-block;
+  align-self: center;
+  margin: 0%;
 }
