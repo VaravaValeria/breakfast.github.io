@@ -1,0 +1,228 @@
+.body {
+  display: grid;
+  grid-template-columns: repeat(10, 10%);
+  margin-top: 7.65%;
+  margin-right: 9.43%;
+  margin-bottom: 5.10%;
+  margin-left: 9.43%;
+  width: 84,12%;
+  text-transform: lowercase;
+}
+
+.header {
+  grid-column: 1/7;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  width: 95.56%;
+  font-size: 4vw;
+  transform: scale(1, 1.2);
+  text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 425px) {
+  .header {
+    grid-column: 1/11;
+    margin-bottom: 7%;
+    font-size: 7vw;
+
+  }
+}
+
+.header-line {
+  width: 93%;
+}
+
+.header-title {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+}
+
+.dailyBreakfast {
+  grid-column: 7/11;
+  display: flex;
+  flex-flow: row nowrap;
+  outline-width: 0.68vw;
+  outline-style: solid;
+  outline-color: rgb(204, 225, 169);
+  border-width: 0.32vw;
+  border-style: solid;
+  border-color: rgb(246, 244, 167);
+  padding: 3%;
+  width: 90%;
+  background-color: rgb(204, 225, 169);
+}
+
+.dailyBreakfast-title {
+  margin-left: auto;
+  width: 10%;
+  color: white;
+  font-size: 3vw;
+  text-align: center;
+  writing-mode: vertical-rl;
+  transform: scale(-1.7, -1);
+}
+
+.dailyBreakfast-list {
+  margin: 0;
+  padding: 0;
+  width: 90%;
+  list-style-type: none;
+}
+
+.dailyBreakfast-list-item {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.dailyBreakfast-list-item-day {
+  margin: 0;
+  width: 100%;
+  background-color: rgb(175, 215, 207);
+  color: white;
+  font-size: 1.5vw;
+}
+
+.dailyBreakfast-list-item-name {
+  margin: 0;
+  width: 85%;
+  font-size: 1.71vw;
+  font-weight: 700;
+}
+
+.dailyBreakfast-list-item-price {
+  margin: 0;
+  width: 10%;
+  font-size: 1.71vw;
+  font-weight: 400;
+}
+
+
+@media screen and (max-width: 425px) {
+  .dailyBreakfast {
+    grid-column: 2/10;
+  }
+
+  .dailyBreakfast-title {
+    font-size: 5.5vw;
+  }
+
+  .dailyBreakfast-list-item-day {
+    font-size: 2.5vw;
+  }
+
+  .dailyBreakfast-list-item-name {
+    font-size: 3vw;
+  }
+
+  .dailyBreakfast-list-item-price {
+    font-size: 3vw;
+  }
+}
+
+.main {
+  grid-column: 1/11;
+  margin-top: 4%;
+  margin-bottom: 2%;
+  border-width: 0.64vw;
+  border-style: dotted;
+  border-color: white;
+}
+
+.mainMenu-mainPic {
+  margin: 2%;
+}
+
+.mainMenu-mainPic-image {
+  width: 100%;
+}
+
+.mainMenu-list {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 2%;
+  padding: 0;
+  list-style-type: none;
+
+}
+
+.mainMenu-list-part1 {
+  border-right-width: 0.64vw;
+  border-right-style: dotted;
+  border-right-color: white;
+  width: 47%;
+}
+
+.mainMenu-list-part2 {
+  margin-left: 4%;
+  width: 47%;
+
+}
+
+.mainMenu-list-dish{
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 5%;
+}
+
+.mainMenu-list-dish-name {
+  margin: 0;
+  width: 80%;
+  font-size: 2vw;
+}
+
+.mainMenu-list-dish-weight {
+  margin: 0;
+  width: 9%;
+  font-size: 1.5vw;
+}
+
+.mainMenu-list-dish-description {
+  margin-right: 30%;
+  width: 70%;
+  font-size: 1.5vw;
+}
+
+.mainMenu-list-dish-price {
+  margin: 0;
+  width: 10%;  
+  font-weight: 600;
+  font-size: 2vw;
+}
+
+@media screen and (max-width: 425px) {
+  .mainMenu-list-part1 {
+    border: none;
+    width: 100%;
+  }
+
+  .mainMenu-list-part2 {
+    margin: 0;
+    width: 100%;
+  }
+
+  .mainMenu-list-dish-name {
+    width: 83%;
+    font-size: 4vw;
+  }
+  
+  .mainMenu-list-dish-weight {
+    font-size: 3vw;
+  }
+  .mainMenu-list-dish-description {
+    font-size: 3vw;
+  }
+  .mainMenu-list-dish-price {
+    width: 7%;
+    font-size: 4vw;
+  }
+}
+
+.footer {
+  grid-column: 2/10;
+}

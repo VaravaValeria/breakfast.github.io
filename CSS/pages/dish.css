@@ -1,0 +1,113 @@
+.body {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.header-dishImage {
+    width: 100%;
+}
+  
+.header-title {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 3%;
+    width: 40%;
+    font-size: 6vw;
+    transform: scale(1, 1.2);
+    text-transform: uppercase;
+}
+
+.header-line {
+    width: 75%;
+}
+
+.header-logoImage {
+    margin-top: 1%;
+    margin-right: 17%;
+    height: 20vw;
+}
+
+.main {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-dish {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+}
+
+.main-dishDescription {
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 2vw;
+    text-align: justify;
+}
+
+.main-dishPrice {
+    margin: 1%;
+    font-weight: 600;
+    font-size: 2.5vw;
+}
+
+.main-orderForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+}
+
+.main-orderButton {
+    margin-bottom: 1em;
+    padding: 10%;
+    border-color: darkorchid;
+    background-color: rgb(246, 244, 167);
+    color: darkorchid;
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+.main-orderButton:hover {
+    background-color: darkorchid;
+    color: rgb(246, 244, 167);
+    cursor: pointer;
+}
+
+.footer {
+    margin: 1%;
+    width: 80%;
+}
+  
+@media screen and (max-width: 425px) {
+    .main-dishDescription {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 3vw;
+    }
+
+    .main-dishPrice {
+        font-size: 4vw;
+    }
+
+    .main-orderButton {
+        font-size: 4vw;
+    }
+}
